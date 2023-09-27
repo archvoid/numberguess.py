@@ -1,23 +1,2 @@
-import random
-
-ainum = random.randint(1,10)
-ainum2 = random.randint(5,20)
-
-
-
-useransw = int(input("pick a number between: 1 - 10\n" ))
-
-useransw2 = int(input("pick a number between: 5 - 20\n"))
-if ainum == useransw:
-    print("you have won")
-
-
-    
-    if ainum2 == useransw2:
-        print("correct, again")
-    
-elif ainum2 == useransw2:
-  print("incorrect, again")
-
-else:
-    print("incorrect")
+About
+A program "game" that picks a number and asks for you to pick a number. Once the number is picked it will check to see if it matches the programs number. If it does, you win.
