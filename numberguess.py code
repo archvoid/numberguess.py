@@ -12,7 +12,7 @@ if ainum == useransw:
     print("you have won")
 
 
-    
+    #starts useransw2 (a second trivia)
     if ainum2 == useransw2:
         print("correct, again")
     
